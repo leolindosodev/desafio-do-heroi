@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'gamespot';
+    src: url(fonts/gamerspot.ttf);
+}
+:root{
+    --corDefault: #080F26;
+    --fontCorpo: #11468C;
+    --fontSaida: #870DD9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    background-image: linear-gradient(to left, #080F26, #870DD9, #11468C);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#conteiner{
+    width: 40%;
+    height: 40%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.42);
+    text-align: center;
+    padding: 2%;
+}
+label{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'gamespot';
+    color: var(--fontCorpo);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.366);
+}
+input{
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-size: 1.6em;
+}
+header{
+    margin-bottom: 15px;
+}
+header > h1{
+    width: 100%;
+    height: 100%;
+    color: var(--corDefault);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.366);
+    text-transform: uppercase;
+    font-family: 'gamespot';
+    font-size: 5vw;
+}
+button{
+    margin: 30px 0px;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--fontCorpo);
+    color: white;
+}
+#outResp{
+    font-size: 1.6em;
+    color: var(--fontSaida);
+}

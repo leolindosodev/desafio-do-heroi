@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Herói</title>
+    <link rel="stylesheet" href="src/estilo.css">
+</head>
+<body>
+    <form id="conteiner">
+            <header>
+                <h1>Ranking</h1>
+            </header>
+                <p><label for="inName">Nickname</label></p>
+                <input type="text" name="inName" id="inName" placeholder="Nome do seu Hero">
+            
+                <p><label for="inLevel">Nível</label></p>
+                <input type="number" name="inLevel" id="inLevel" placeholder="Digite o número do nível do seu herói" min="0" max="9999999">
+            <p><button type="submit">Rankiando seu Herói</button></p>''
+            <h3 id="outResp"></h3>
+    </form>
+    <script src="src/script.js"></script>
+</body>
+</html>
